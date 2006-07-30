@@ -50,6 +50,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)notification {
 	[[WebPreferences standardPreferences] setShouldPrintBackgrounds:YES];
 	NSLog(@"should print backgrounds: %u", [[WebPreferences standardPreferences] shouldPrintBackgrounds]);
+	[webView setMediaStyle:@"print"];
 
 	NSSavePanel *savePanel = [NSSavePanel savePanel];
 	[savePanel setRequiredFileType:@"pdf"];
