@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FontField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {saveDocumentAs = id; takeStringURLFrom = id; }; 
+            CLASS = Web2PDFController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {URLField = NSComboBox; spinner = NSProgressIndicator; webView = WebView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
