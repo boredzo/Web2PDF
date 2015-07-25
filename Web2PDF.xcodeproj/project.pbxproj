@@ -229,7 +229,7 @@
 				GCC_PREFIX_HEADER = Web2PDF_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_BUNDLE_IDENTIFIER = org.boredzo.web2pdf;
 				PRODUCT_NAME = Web2PDF;
 				WRAPPER_EXTENSION = app;
@@ -249,7 +249,7 @@
 				GCC_PREFIX_HEADER = Web2PDF_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_BUNDLE_IDENTIFIER = org.boredzo.web2pdf;
 				PRODUCT_NAME = Web2PDF;
 				WRAPPER_EXTENSION = app;
@@ -267,7 +267,7 @@
 				GCC_PREFIX_HEADER = Web2PDF_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_BUNDLE_IDENTIFIER = org.boredzo.web2pdf;
 				PRODUCT_NAME = Web2PDF;
 				WRAPPER_EXTENSION = app;

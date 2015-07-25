@@ -40,7 +40,11 @@
 		NSView       *docView   = [frameView documentView];
 		NSData       *data      = [docView   dataWithPDFInsideRect:[docView bounds]];
 
-		[data writeToFile:[savePanel filename] atomically:NO];
+		NSError *error = nil;
+		bool wrote = [data writeToURL:savePanel.URL options:NSDataWritingAtomic error:&error];
+		if ( ! wrote ) {
+			[NSApp presentError:error modalForWindow:webView.window delegate:nil didPresentSelector:@selector(oHai:) contextInfo:NULL];
+		}
 	}
 }
 
